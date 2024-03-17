@@ -1,1 +1,1 @@
-# LorenzDataAssimilation
+MATLAB script that performs data assimilation on the 3 DOF Lorenz system. It is assumed that the variables y and z are 'known' from a numerical integration of the Lorenz differential equations, while the variable x is unknown. A least-squares, non-linearly constrained problem is formulated and solved using a combination of the Newton-Raphson method and multiple-shooting with preconditioning.
